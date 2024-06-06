@@ -1,6 +1,8 @@
+# MANUAL TECNICO
 # LAB. ESTRUCTURAS DE DATOS SECCION A
 ## PRACTICA
 ### VACACIONES JUNIO 2024
+
 ```js
 👻💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀👻
 💀                                           💀
@@ -12,12 +14,13 @@
 👻💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀👻
 ```
 
----
-
-# [MANUAL TECNICO](/Manual/ManualTecnico.md)    <------------------- 👀👀👀
+## Librerias usadas
 
 
+## Requisitos del Sistema
 
-<p align="center">
-  <a href="#"><img src="https://i.imgur.com/1GAq3dN.gif" width="500px"/></a>
-</p>
+
+# metodos
+
+
+
