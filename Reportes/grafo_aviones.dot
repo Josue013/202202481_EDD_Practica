@@ -1,0 +1,21 @@
+digraph Aviones {
+layout=circo;
+rankdir=LR;
+node [fontname="Courier New"];
+node [shape=component, style=filled, color=blue, fillcolor="#65babf"];
+  "DN54321" [label="Vuelo: A102\nRegistro: N54321\nEstado: Disponible", shape=box, color=black];
+  "DN54321" -> "DN67890";
+  "DN54321" -> "DN13579";
+  "DN67890" [label="Vuelo: A104\nRegistro: N67890\nEstado: Disponible", shape=box, color=black];
+  "DN67890" -> "DN13579";
+  "DN67890" -> "DN54321";
+  "DN13579" [label="Vuelo: A106\nRegistro: N13579\nEstado: Disponible", shape=box, color=black];
+  "DN13579" -> "DN54321";
+  "DN13579" -> "DN67890";
+  "MN24680" [label="Vuelo: A108\nRegistro: N24680\nEstado: Mantenimiento", shape=box, color=red, fillcolor="#ffcccb"];
+  "MN24680" -> "MN12345";
+  "MN24680" -> "MN12345";
+  "MN12345" [label="Vuelo: A100\nRegistro: N12345\nEstado: Mantenimiento", shape=box, color=red, fillcolor="#ffcccb"];
+  "MN12345" -> "MN24680";
+  "MN12345" -> "MN24680";
+}

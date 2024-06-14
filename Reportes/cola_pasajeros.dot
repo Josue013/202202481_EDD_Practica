@@ -1,0 +1,14 @@
+digraph cola {
+node [fontname="Courier New"];
+node [shape=component, style=filled, color=blue, fillcolor="#65babf"];
+"Node 0" [shape=folder, color=black, fillcolor="#d43440" label="Cola De Pasajeros"];
+"Node 1" [label="Nombre: John Doe\nNacionalidad: Estados Unidos\nNumero de Pasaporte: P12345678\nVuelo: A100\nAsiento: 12\nDestino: New York\nOrigen: Los Angeles\nEquipaje Facturado: 2"];
+"Node 2" [label="Nombre: Jane Smith\nNacionalidad: Reino Unido\nNumero de Pasaporte: P98765432\nVuelo: A200\nAsiento: 5\nDestino: Londres\nOrigen: Paris\nEquipaje Facturado: 1"];
+"Node 1" -> "Node 2";
+"Node 3" [label="Nombre: Carlos Rodríguez\nNacionalidad: Mexico\nNumero de Pasaporte: P45678901\nVuelo: A900\nAsiento: 23\nDestino: Ciudad de Mexico\nOrigen: Miami\nEquipaje Facturado: 0"];
+"Node 2" -> "Node 3";
+"Node 4" [label="Nombre: Liu Wei\nNacionalidad: China\nNumero de Pasaporte: P23456789\nVuelo: A789\nAsiento: 8\nDestino: Beijing\nOrigen: San Francisco\nEquipaje Facturado: 1"];
+"Node 3" -> "Node 4";
+"Node 5" [label="Nombre: Ahmed Al-Farsi\nNacionalidad: Emiratos Arabes Unidos\nNumero de Pasaporte: P34567890\nVuelo: A789\nAsiento: 1\nDestino: Dubai\nOrigen: New York\nEquipaje Facturado: 3"];
+"Node 4" -> "Node 5";
+}

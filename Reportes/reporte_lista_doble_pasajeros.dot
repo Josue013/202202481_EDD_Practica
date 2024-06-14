@@ -1,0 +1,18 @@
+digraph lista_doble {
+node [fontname="Courier New"];
+node [shape=component, style=filled, color=blue, fillcolor="#65babf"];
+"Node 0" [shape=folder, color=black, fillcolor="#d43440" label="Lista Doble De Pasajeros"];
+"Node 1" [label="Nombre: John Doe\nNumero de Pasaporte: P12345678\nVuelo: A100\nAsiento: 12"];
+"Node 2" [label="Nombre: Jane Smith\nNumero de Pasaporte: P98765432\nVuelo: A200\nAsiento: 5"];
+"Node 1" -> "Node 2";
+"Node 2" -> "Node 1";
+"Node 3" [label="Nombre: Ahmed Al-Farsi\nNumero de Pasaporte: P34567890\nVuelo: A789\nAsiento: 1"];
+"Node 2" -> "Node 3";
+"Node 3" -> "Node 2";
+"Node 4" [label="Nombre: Liu Wei\nNumero de Pasaporte: P23456789\nVuelo: A789\nAsiento: 8"];
+"Node 3" -> "Node 4";
+"Node 4" -> "Node 3";
+"Node 5" [label="Nombre: Carlos Rodríguez\nNumero de Pasaporte: P45678901\nVuelo: A900\nAsiento: 23"];
+"Node 4" -> "Node 5";
+"Node 5" -> "Node 4";
+}

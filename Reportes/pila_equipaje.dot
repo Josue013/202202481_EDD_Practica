@@ -1,0 +1,12 @@
+digraph pila {
+node [fontname="Courier New"];
+node [shape=component, style=filled, color=blue, fillcolor="#65babf"];
+"Node 0" [shape=folder, color=black, fillcolor="#d43440" label="Pila De Equipaje"];
+"Node 1" [label="Nombre: Ahmed Al-Farsi\nNo. de Pasaporte: P34567890\nEquipaje Facturado: 3"];
+"Node 2" [label="Nombre: Liu Wei\nNo. de Pasaporte: P23456789\nEquipaje Facturado: 1"];
+"Node 1" -> "Node 2";
+"Node 3" [label="Nombre: Jane Smith\nNo. de Pasaporte: P98765432\nEquipaje Facturado: 1"];
+"Node 2" -> "Node 3";
+"Node 4" [label="Nombre: John Doe\nNo. de Pasaporte: P12345678\nEquipaje Facturado: 2"];
+"Node 3" -> "Node 4";
+}
